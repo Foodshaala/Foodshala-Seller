@@ -2,4 +2,8 @@
     <string name="app_name">FoodShala</string>
     <string name="all_your_favourite_restaurents">All your Favourite Restaurents</string>
     <string name="order_from_the_best_local_resataurants_with_ease_and_on_demand_delivery">Order From the Best Local Resataurants with ease and on Demand Delivery</string>
+    <string name="sign_in">Sign In</string>
+    <string name="name">Name..</string>
+    <string name="password">Password..</string>
+    <string name="sign_up">Sign Up</string>
 </resources>
