@@ -2,8 +2,6 @@ package com.example.foodshala
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import androidx.viewpager.widget.ViewPager
-import com.tbuonomo.viewpagerdotsindicator.DotsIndicator
 
 class MainActivity : AppCompatActivity() {
 
