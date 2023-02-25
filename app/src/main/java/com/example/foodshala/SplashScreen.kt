@@ -3,6 +3,7 @@ package com.example.foodshala
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.util.Log
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.delay
@@ -20,7 +21,7 @@ class SplashScreen : AppCompatActivity() {
 
         CoroutineScope(Dispatchers.Main).launch {
             delay(1000L)
-            startActivity(Intent(this@SplashScreen,SignUp::class.java))
+            startActivity(Intent(this@SplashScreen,LogIn::class.java))
             finish()
         }
     }
