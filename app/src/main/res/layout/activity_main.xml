@@ -10,17 +10,28 @@
 
     tools:context=".MainActivity">
 
-    <TextView
-        android:id="@+id/username"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello"/>
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
 
-    <Button
-        android:id="@+id/logout"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Logout"/>
+        <FrameLayout
+            android:id="@+id/FragmentFL"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"/>
+
+        <com.google.android.material.bottomnavigation.BottomNavigationView
+            android:id="@+id/bottomNav"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            app:itemIconSize="30dp"
+            app:menu="@menu/bottom_nav"
+            app:itemIconTint="@color/primary"
+            android:background="@color/white"
+            app:itemTextColor="@color/black"/>
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
 
 
 </LinearLayout>
